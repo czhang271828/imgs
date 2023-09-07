@@ -17,17 +17,17 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="namedview29"
-     pagecolor="#ffff01"
-     bordercolor="#ffff01"
-     borderopacity="0.1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.0"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.1"
+     inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="2"
-     inkscape:cx="92.5"
-     inkscape:cy="45"
+     inkscape:zoom="128"
+     inkscape:cx="-0.82421875"
+     inkscape:cy="320.70312"
      inkscape:window-width="1920"
      inkscape:window-height="986"
      inkscape:window-x="-11"
@@ -95,4 +95,35 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <rect
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.25196;stroke-opacity:0"
+     id="rect1178"
+     width="0.0390625"
+     height="0.024414062"
+     x="0.01953125"
+     y="0.01953125" />
+  <circle
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.25196;stroke-opacity:0"
+     id="path1941"
+     cx="0.64062846"
+     cy="0.64062846"
+     r="0.014648438" />
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.25196;stroke-opacity:0"
+     id="path1941-0"
+     cx="0.64062846"
+     cy="400.64062"
+     r="0.014648438" />
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.25196;stroke-opacity:0"
+     id="path1941-0-0"
+     cx="400.64062"
+     cy="0.64062846"
+     r="0.014648438" />
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.25196;stroke-opacity:0"
+     id="path1941-3-2"
+     cx="400.64062"
+     cy="400.64062"
+     r="0.014648438" />
 </svg>
