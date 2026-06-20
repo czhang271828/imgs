@@ -1,0 +1,77 @@
+\documentclass[a4paper, reqno, 10pt]{amsart}
+%\usepackage{geometry} % Page margins
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsthm, amsmath, amssymb, mathtools}  % Required for math typesetting
+\usepackage{tikz-cd}
+\usepackage{quiver} % Required for commutative diagrams
+\usepackage{xcolor}
+
+\usepackage{extarrows} % For long arrows with text above and below
+
+\usepackage[all, cmtip, 2cell]{xy}
+\UseTwocells
+
+\usepackage[colorlinks]{hyperref} % For hyperlinks in the PDF
+\usepackage[nameinlink]{cleveref} % For referencing multiple labels
+\usepackage{showkeys}
+
+%\setlength\parindent{0pt} % No paragraph indentation
+
+\title{Diagram Lemmas in Extriangulated Categories}
+\author{Chencheng Zhang}
+
+% Define theorem styles and environments
+\theoremstyle{plain}  % for theorems, etc. (italic body)
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem*{axiom}{Axiom}
+\newtheorem*{condition}{Condition}
+
+\theoremstyle{definition}  % for definitions, examples (upright body)
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{problem}[theorem]{Problem}
+
+\newtheorem*{notation}{Notation}
+
+\theoremstyle{remark}  % for remarks etc. (upright, less emphasis)
+\newtheorem*{remark}{Remark}
+\newtheorem*{note}{Note}
+
+
+\newcommand{\Ker}{\operatorname{Ker}}
+\newcommand{\Coker}{\operatorname{Coker}}
+
+\numberwithin{equation}{subsection}
+
+% \includeonly{Sections/HomotopicSquares, Sections/DiagramLemma, Sections/Model} % 编译部分章节, 但不改变交叉引用.
+
+
+\begin{document}
+
+
+\begin{abstract}
+	$\varnothing$.
+\end{abstract}
+
+\maketitle
+
+\include{Sections/Preliminaries}
+
+\include{Sections/HomotopicSquares}
+
+\include{Sections/Applications}
+
+% \include{Sections/Model}
+
+\include{Sections/SnakeLemma}
+
+
+\newpage 
+\bibliographystyle{alphaurl}
+\bibliography{ref}
+
+\end{document}
